@@ -5,11 +5,9 @@ Home: https://CRAN.R-project.org/package=optimsimplex
 
 Package license: CeCILL-2
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-optimsimplex-feedstock/blob/master/LICENSE.txt)
 
 Summary: Provides a building block for optimization algorithms based on a simplex. The 'optimsimplex' package may be used in the following optimization methods: the simplex method of Spendley et al. (1962) <doi:10.1080/00401706.1962.10490033>, the method of  Nelder and Mead (1965) <doi:10.1093/comjnl/7.4.308>, Box's algorithm for constrained optimization (1965) <doi:10.1093/comjnl/8.1.42>, the  multi-dimensional search by Torczon (1989)  <http://www.cs.wm.edu/~va/research/thesis.pdf>, etc...
-
-
 
 Current build status
 ====================
@@ -38,6 +36,7 @@ Installing `r-optimsimplex` from the `conda-forge` channel can be achieved by ad
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-optimsimplex` can be installed with:
@@ -108,9 +107,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers

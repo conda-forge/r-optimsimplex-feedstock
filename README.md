@@ -1,11 +1,11 @@
-About r-optimsimplex
-====================
+About r-optimsimplex-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-optimsimplex-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=optimsimplex
 
 Package license: CeCILL-2
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-optimsimplex-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides a building block for optimization algorithms based on a simplex. The 'optimsimplex' package may be used in the following optimization methods: the simplex method of Spendley et al. (1962) <doi:10.1080/00401706.1962.10490033>, the method of  Nelder and Mead (1965) <doi:10.1093/comjnl/7.4.308>, Box's algorithm for constrained optimization (1965) <doi:10.1093/comjnl/8.1.42>, the  multi-dimensional search by Torczon (1989)  <http://www.cs.wm.edu/~va/research/thesis.pdf>, etc...
 
